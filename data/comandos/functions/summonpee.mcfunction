@@ -1,0 +1,2 @@
+
+execute as @p at @p run summon armor_stand ~ ~1 ~ {CustomName:'{"text":"ispee"}', Invisible:1b,ShowArms:1b,ArmorItems:[{},{},{},{}],HandItems:[{id:"carrot_on_a_stick",Count:1b,tag:{CustomModelData:4}},{}],Pose:{LeftArm:[360f,0f,0f],RightArm:[360f,0f,0f]}}

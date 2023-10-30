@@ -1,0 +1,2 @@
+execute if score @p tiredtime matches ..100 run effect clear @p slowness
+execute as @p[scores={roles=1}] at @p[scores={roles=1}] run execute if score @p[scores={roles=1}] tiredtime matches 10000.. run execute if score @p[scores={roles=1}] tiredtime matches ..20000 run effect give @p slowness 999 1 true

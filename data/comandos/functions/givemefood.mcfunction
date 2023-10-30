@@ -1,0 +1,1 @@
+give @p cooked_mutton{CustomModelData:2 , display:{Name:"{\"text\": \"Compota\" , \"color\": \"lightblue\"}"}}

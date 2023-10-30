@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "crafteos:nappy"
+        }
+      }
+    },
+    "rewards": {
+      "function": "comandos:givenappy"
+    }
+  }
+  
