@@ -28,3 +28,4 @@ scoreboard objectives add tiredcheck dummy
 scoreboard objectives add cunatime dummy
 scoreboard objectives add sleeptime dummy
 scoreboard objectives add napintory dummy
+scoreboard objectives add oncarmove minecraft.used:carrot_on_a_stick
