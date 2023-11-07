@@ -30,3 +30,5 @@ scoreboard players add @s tiredcheck 1
 execute as @a[scores={roles=1}] at @a[scores={roles=1}] if score @s[scores={roles=1}] tiredcheck matches 500.. run function comandos:tiredstate
 execute as @a[scores={roles=1}] at @a[scores={roles=1}] if score @s[scores={roles=1}] tiredcheck matches 500.. run scoreboard players set @s[scores={roles=1}] tiredcheck 0
 execute as @a[scores={roles=1}] at @a[scores={roles=1}] if score @s[scores={roles=1}] tiredtime matches ..100 run effect clear @s[scores={roles=1}] slowness
+execute as @a at @a if score @s editorshow matches 3.. run function comandos:calleditmode
+execute as @a[scores={editormode=1}] at @a[scores={editormode=1}] run function comandos:editactive

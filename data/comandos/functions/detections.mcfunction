@@ -23,6 +23,6 @@ execute as @a[scores={roles=1}] at @a[scores={roles=1}] if entity @s[nbt={Invent
 
 execute as @a[scores={roles=1},nbt={Inventory:[{id:"minecraft:diamond_leggings",tag:{CustomModelData:1}}]}] at @a[scores={roles=1},nbt={Inventory:[{id:"minecraft:diamond_leggings",tag:{CustomModelData:1}}]}] run scoreboard players set @a[scores={roles=1},nbt={Inventory:[{id:"minecraft:diamond_leggings",tag:{CustomModelData:1}}]}] napintory 1
 execute as @a unless entity @s[scores={roles=1},nbt={Inventory:[{id:"minecraft:diamond_leggings",tag:{CustomModelData:1}}]}] at @a unless entity @s[scores={roles=1},nbt={Inventory:[{id:"minecraft:diamond_leggings",tag:{CustomModelData:1}}]}] run scoreboard players set @s napintory 0
-
+execute as @a at @a run scoreboard players set @s editorshow 0
 
 scoreboard players set @a[scores={roles=1}] areadetection 0

@@ -28,4 +28,8 @@ scoreboard objectives add tiredcheck dummy
 scoreboard objectives add cunatime dummy
 scoreboard objectives add sleeptime dummy
 scoreboard objectives add napintory dummy
-scoreboard objectives add oncarmove minecraft.used:carrot_on_a_stick
+scoreboard objectives add editorshow minecraft.custom:bell_ring
+scoreboard objectives add editormode dummy
+scoreboard objectives add sneakedit minecraft.custom:sneak_time
+scoreboard objectives add movemode dummy
+scoreboard objectives add rotatemode dummy
