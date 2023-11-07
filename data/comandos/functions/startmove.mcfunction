@@ -1,1 +1,1 @@
-tellraw @s "Explota"
+scoreboard players set @s movemode 1

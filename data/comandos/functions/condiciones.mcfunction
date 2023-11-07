@@ -32,3 +32,4 @@ execute as @a[scores={roles=1}] at @a[scores={roles=1}] if score @s[scores={role
 execute as @a[scores={roles=1}] at @a[scores={roles=1}] if score @s[scores={roles=1}] tiredtime matches ..100 run effect clear @s[scores={roles=1}] slowness
 execute as @a at @a if score @s editorshow matches 3.. run function comandos:calleditmode
 execute as @a[scores={editormode=1}] at @a[scores={editormode=1}] run function comandos:editactive
+execute as @a at @a if score @s movemode matches 1 run function comandos:movethinks
