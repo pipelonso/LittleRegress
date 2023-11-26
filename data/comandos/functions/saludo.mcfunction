@@ -33,3 +33,5 @@ scoreboard objectives add editormode dummy
 scoreboard objectives add sneakedit minecraft.custom:sneak_time
 scoreboard objectives add movemode dummy
 scoreboard objectives add rotatemode dummy
+scoreboard objectives add placeitemframe minecraft.used:item_frame
+scoreboard objectives add itemplaced dummy

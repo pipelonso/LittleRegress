@@ -33,3 +33,7 @@ execute as @a[scores={roles=1}] at @a[scores={roles=1}] if score @s[scores={role
 execute as @a at @a if score @s editorshow matches 3.. run function comandos:calleditmode
 execute as @a[scores={editormode=1}] at @a[scores={editormode=1}] run function comandos:editactive
 execute as @a at @a if score @s movemode matches 1 run function comandos:movethinks
+
+execute as @a if score @s placeitemframe matches 1.. run function comandos:detectplace
+ 
+#execute as @a run execute if entity @s[nbt={SelectedItem:{id:"minecraft:item_frame" ,  tag:{CustomModelData:1} }}] run tellraw @s "aaa"
