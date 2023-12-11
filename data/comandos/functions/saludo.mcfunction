@@ -37,3 +37,4 @@ scoreboard objectives add placeitemframe minecraft.used:item_frame
 scoreboard objectives add itemplaced dummy
 scoreboard objectives add onmovingsome dummy
 scoreboard objectives add jumpwash minecraft.custom:jump
+scoreboard objectives add jumpchair minecraft.custom:jump

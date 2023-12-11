@@ -29,6 +29,9 @@ execute as @a[scores={roles=1}] at @s[scores={roles=1}] if entity @e[name="sitba
 execute as @a[scores={roles=1}] at @s[scores={roles=1}] if entity @e[name="Sitwash",distance=..2.2] run execute if score @s jumpwash matches 1.. run function comandos:ridewash
 execute as @a[scores={roles=1}] at @s[scores={roles=1}] if entity @e[name="Sitwash",distance=2..] run scoreboard players set @s jumpwash 0
 
+execute as @a[scores={roles=1}] at @s[scores={roles=1}] if entity @e[name="sitchair",distance=..2.2] run execute if score @s jumpchair matches 1.. run function comandos:ridechair
+execute as @a[scores={roles=1}] at @s[scores={roles=1}] if entity @e[name="sitchair",distance=2..] run scoreboard players set @s jumpchair 0
+
 
 scoreboard players add @s tiredcheck 1
 execute as @a[scores={roles=1}] at @a[scores={roles=1}] if score @s[scores={roles=1}] tiredcheck matches 500.. run function comandos:tiredstate
