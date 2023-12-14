@@ -10,6 +10,7 @@ execute as @s at @s run tp @e[type=minecraft:item_display , distance=..5, name="
 execute as @s at @s run tp @e[type=minecraft:item_display , distance=..5, name="Sitwash", scores={onmovingsome=1}] ^0 ^0.2 ^3.5
 execute as @s at @s run tp @e[type=minecraft:item_display , distance=..5, name="chair", scores={onmovingsome=1}] ^0 ^0.2 ^3.5
 execute as @s at @s run tp @e[type=minecraft:item_display , distance=..5, name="sitchair", scores={onmovingsome=1}] ^0 ^0.8 ^3.5
+execute as @s at @s run tp @e[type=minecraft:item_display , distance=..5, name="closet", scores={onmovingsome=1}] ^0 ^2 ^3.5
 execute if score @s sneakedit matches 48.. run scoreboard players reset @e[type=minecraft:item_display , distance=..5, scores={onmovingsome=1}] onmovingsome
 execute if score @s sneakedit matches 48.. run scoreboard players set @s onmovingsome 0
 execute if score @s sneakedit matches 48.. run scoreboard players set @s movemode 0

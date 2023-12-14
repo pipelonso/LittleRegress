@@ -38,3 +38,8 @@ scoreboard objectives add itemplaced dummy
 scoreboard objectives add onmovingsome dummy
 scoreboard objectives add jumpwash minecraft.custom:jump
 scoreboard objectives add jumpchair minecraft.custom:jump
+scoreboard objectives add abtdirt dummy "Dirtiness"
+
+#Fear increases with the nearest mobs, it will be reset after five minutes
+scoreboard objectives add abtfear dummy "Fear"
+ 

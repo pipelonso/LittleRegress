@@ -1,9 +1,11 @@
-nappy 1
-nappy wet 2
-kk 3
-pee 4
-babero 5
-bañera 6
+ELEMENTS NBT (carrot_on_a_stick) [can detect click]
+
+nappy : 1
+nappy wet : 2
+poo item {No pikable} : 3
+pee : 4
+babero : 5 //mecanicas ... bajar probabilidad de suciedad mientras come
+bañera : 6 //mecanicas ... bajar el nivel de suciedad a cero
 silla 7
 bath 8
 trapeador 9
@@ -13,17 +15,28 @@ talco 12
 cambiador 13
 armario 14
 blocks 15
-chupon 16
+chupon 16 //macanicas ... remueve el miedo a cero
 bibe 17
 cuna 18
-cargador 19
+cargador 19 // posible
 
+
+IDEAS
+******************************************************
 idea : pee on bed last a nightmare
 idea : tired time depending the time of he is awaken.
+******************************************************
 
-minecraft:cooked_mutton 
-cmd 
-1. Compota
-2. lax
+ELEMENTS NBT (minecraft:cooked_mutton) [Eat detection] 
+Compota : 1 //Increase the poometer in one
+lax : 2 / increase the poometer in five
 
-Chupon ayuda a evitar pesadillas
+
+DIMENSIONS (reverie , Abyssmare) {
+
+    reverie : end based dimension with a normal sky
+    Abyssmare : nether based dimension with hostile creatures 
+
+
+
+}
