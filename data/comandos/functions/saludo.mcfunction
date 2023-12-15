@@ -1,4 +1,6 @@
-say "Datapack activado"
+scoreboard objectives add agree dummy
+scoreboard objectives add abtstarter dummy
+scoreboard objectives add abtfrsenter minecraft.custom:leave_game
 scoreboard objectives add admin dummy "admin"
 scoreboard objectives add roles dummy
 scoreboard objectives add itsrunning minecraft.custom:sprint_one_cm
@@ -39,7 +41,22 @@ scoreboard objectives add onmovingsome dummy
 scoreboard objectives add jumpwash minecraft.custom:jump
 scoreboard objectives add jumpchair minecraft.custom:jump
 scoreboard objectives add abtdirt dummy "Dirtiness"
-
 #Fear increases with the nearest mobs, it will be reset after five minutes
 scoreboard objectives add abtfear dummy "Fear"
- 
+#padding parameter that  indicates the move difficutlty to the player
+scoreboard objectives add abtpadding dummy
+scoreboard objectives add abtaddcot minecraft.used:carrot_on_a_stick
+scoreboard objectives add abtaddchanger minecraft.used:carrot_on_a_stick
+scoreboard objectives add abtaddbath minecraft.used:carrot_on_a_stick
+scoreboard objectives add abtaddchair minecraft.used:carrot_on_a_stick
+scoreboard objectives add abtaddtrain minecraft.used:carrot_on_a_stick
+scoreboard objectives add abtaddcloss minecraft.used:carrot_on_a_stick
+scoreboard objectives add abtaddwash minecraft.used:carrot_on_a_stick
+scoreboard objectives add logout minecraft.custom:leave_game
+scoreboard objectives add abtlang dummy
+#scoreboard encargado de transformar un valor en negativo o positivo NO FUNCIONA PORQUE MOJANG SE LE OCURRIO NO SEGUIR LA LEY DE SIGNOS
+scoreboard objectives add abttrans dummy
+scoreboard players set abplayer abttrans -1
+
+
+tellraw @a {"text": "ABTHINKS [ACTIVATED DATAPACK]","color": "yellow"}

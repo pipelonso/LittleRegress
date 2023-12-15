@@ -42,5 +42,5 @@ execute as @a[scores={editormode=1}] at @a[scores={editormode=1}] run function c
 execute as @a at @a if score @s movemode matches 1 run function comandos:movethinks
 
 execute as @a if score @s placeitemframe matches 1.. run function comandos:detectplace
- 
+execute as @a at @a if score @s logout matches 1.. run execute if score @s abtstarter matches 0 run function comandos:hello
 #execute as @a run execute if entity @s[nbt={SelectedItem:{id:"minecraft:item_frame" ,  tag:{CustomModelData:1} }}] run tellraw @s "aaa"
