@@ -44,3 +44,11 @@ execute as @a at @a if score @s movemode matches 1 run function comandos:movethi
 execute as @a if score @s placeitemframe matches 1.. run function comandos:detectplace
 execute as @a at @a if score @s logout matches 1.. run execute if score @s abtstarter matches 0 run function comandos:hello
 #execute as @a run execute if entity @s[nbt={SelectedItem:{id:"minecraft:item_frame" ,  tag:{CustomModelData:1} }}] run tellraw @s "aaa"
+
+execute as @a at @a run execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:18}}}] run execute if score @s abtaddcot matches 1.. run function comandos:dis
+execute as @a at @a run execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:13}}}] run execute if score @s abtaddchanger matches 1.. run function comandos:changer
+execute as @a at @a run execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:8}}}] run execute if score @s abtaddbath matches 1.. run function comandos:sumbatch
+execute as @a at @a run execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:7}}}] run execute if score @s abtaddchair matches 1.. run function comandos:sumchair
+execute as @a at @a run execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:14}}}] run execute if score @s abtaddcloss matches 1.. run function comandos:sumcloset
+execute as @a at @a run execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:10}}}] run execute if score @s abtaddtrain matches 1.. run function comandos:sumtraining
+execute as @a at @a run execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:6}}}] run execute if score @s abtaddwash matches 1.. run function comandos:sumwash

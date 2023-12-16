@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "qwq",
+        "qqq"
+    ],
+    "key": {        
+        "q": {
+            "item": "minecraft:quartz_block"
+        },
+        "w" : {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "W W",
+        "WWW",
+        "i i"
+    ],
+    "key": {        
+        "W": {
+            "item": "minecraft:white_wool"
+        },
+        "i":{
+            "item": "iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

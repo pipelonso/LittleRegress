@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SsS",
+        "SpS",
+        "SsS"
+    ],
+    "key": {        
+        "S": {
+            "item": "minecraft:spruce_planks"
+        },
+        "s" : {
+            "item": "minecraft:spruce_slab"
+        },
+        "p" : {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

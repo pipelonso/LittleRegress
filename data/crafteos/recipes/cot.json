@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        " F ",
+        " B "
+    ],
+    "key": {        
+        "B": {
+            "item": "minecraft:white_bed"
+        },
+        "F":{
+            "item": "minecraft:spruce_fence"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

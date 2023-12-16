@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        " P ",
+        " G "
+    ],
+    "key": {        
+        "P": {
+            "item": "minecraft:poisonous_potato"
+        },
+        "G" : {
+            "item": "minecraft:potion"            
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

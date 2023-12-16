@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "q  ",
+        "qqq",
+        "q q"
+    ],
+    "key": {        
+        "q": {
+            "item": "minecraft:quartz_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

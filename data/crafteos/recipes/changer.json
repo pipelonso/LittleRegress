@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "0WW",
+        "AAA",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "spruce_planks"
+        },
+        "0": {
+            "item": "minecraft:paper"
+        },
+        "W": {
+            "item": "minecraft:white_wool"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

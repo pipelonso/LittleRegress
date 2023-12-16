@@ -1,1 +1,1 @@
-give @p carrot_on_a_stick{CustomModelData:17, display:{Name:"{\"text\": \"Baby Bottle\" , \"color\": \"blue\"}"}}
+give @p carrot_on_a_stick{CustomModelData:17, display:{Name:'{"text": "Baby Bottle" , "color": "blue"}'}}

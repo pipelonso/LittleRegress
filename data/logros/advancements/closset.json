@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "crafteos:closset"
+            }
+        }
+    },
+    "rewards": {
+        "function": "comandos:giveclosset"
+    }
+}
