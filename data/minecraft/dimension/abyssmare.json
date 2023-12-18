@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:the_end",
+    "generator": {
+      "type": "minecraft:noise",
+      "settings": "minecraft:floating_islands",
+      "biome_source": {
+        "type": "minecraft:multi_noise",
+        "biomes": [
+          {
+            "biome": "minecraft:dripstone_caves",
+            "parameters": {
+              "temperature": 0,
+              "humidity": 0,
+              "continentalness": 2,
+              "erosion": 2,
+              "weirdness": 2,
+              "depth": 0,
+              "offset": 0
+            }
+          },
+          {
+            "biome": "minecraft:basalt_deltas",
+            "parameters": {
+              "temperature": 0,
+              "humidity": 0,
+              "continentalness": 1,
+              "erosion": 2,
+              "weirdness": 0,
+              "depth": 0,
+              "offset": 0
+            }
+          }
+        ]
+      }
+    }
+  }
+  
