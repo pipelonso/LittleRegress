@@ -1,0 +1,1 @@
+give @p allay_spawn_egg{EntityTag:{id:"minecraft:slime",Size:0,CustomName:'"prueba"',CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:1b,Silent:1,Invulnerable:1}}

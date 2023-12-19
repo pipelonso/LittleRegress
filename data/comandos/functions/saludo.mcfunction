@@ -57,6 +57,7 @@ scoreboard objectives add abtlang dummy
 #scoreboard encargado de transformar un valor en negativo o positivo NO FUNCIONA PORQUE MOJANG SE LE OCURRIO NO SEGUIR LA LEY DE SIGNOS
 scoreboard objectives add abttrans dummy
 scoreboard players set abplayer abttrans -1
-
-
+scoreboard objectives add abtxspawn dummy
+scoreboard objectives add abtbplace minecraft.used:allay_spawn_egg
+#scoreboard objectives add abtbchone minecraft.used:minecraft:allay_spawn_egg "Allay"
 tellraw @a {"text": "ABTHINKS [ACTIVATED DATAPACK]","color": "yellow"}
