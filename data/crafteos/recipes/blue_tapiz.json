@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " p ",
+        "pwp",
+        " p "
+    ],
+    "key": {        
+        "w": {
+            "item": "minecraft:light_blue_wool"
+        },
+        "p":{
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 4
+    }
+}

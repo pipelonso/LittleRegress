@@ -63,4 +63,4 @@ execute as @a at @a run execute if entity @s[nbt={SelectedItem:{id:"minecraft:ca
 
 execute as @a at @a if score @s abtbplace matches 1.. run function comandos:placefirst
 
-execute as @e[type=item_display,name="tapizone"] at @e[type=item_display,name="tapizone"] unless block ~ ~ ~ glass run kill @e[type=item_display,name="tapizone",limit=1]
+execute as @e[type=item_display , name="tapizone"] at @e[type=item_display , name="tapizone"] run function comandos:blockdeletion

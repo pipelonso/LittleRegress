@@ -1,4 +1,4 @@
-execute as @s at @s run execute as @e[type=item_display , distance=..2] at @e[type=item_display, distance=..2] run particle glow_squid_ink ~ ~2 ~
+execute as @s at @s run execute as @e[type=item_display , distance=..2] at @e[type=item_display, distance=..2] unless entity @s[name="tapizone"] run particle glow_squid_ink ~ ~2 ~
 
 execute as @s at @s run execute if score @s sneakedit matches 50.. run execute if entity @e[type=item_display , distance=..2] run tellraw @s [{"text":"Options","color":"yellow"},{"text":" [Move]","color":"green","clickEvent":{"action":"run_command","value":"/function comandos:startmove"}},{"text": " [rotate]","color":"green","clickEvent":{"action":"run_command","value":"/function comandos:startrotate"}}]
 execute as @s at @s run execute if score @s sneakedit matches 50.. run scoreboard players set @s sneakedit 0
