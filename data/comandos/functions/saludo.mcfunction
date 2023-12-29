@@ -63,4 +63,4 @@ scoreboard objectives add abtbplace minecraft.used:allay_spawn_egg
 
 execute as @a at @a unless score @s agree matches 1.. run scoreboard players set @s agree 0
 
-tellraw @a {"text": "ABTHINKS [ACTIVATED DATAPACK]","color": "yellow"}
+tellraw @a {"text": "LittleRegress [ACTIVATED DATAPACK]","color": "yellow"}
