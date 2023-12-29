@@ -60,4 +60,7 @@ scoreboard players set abplayer abttrans -1
 scoreboard objectives add abtxspawn dummy
 scoreboard objectives add abtbplace minecraft.used:allay_spawn_egg
 #scoreboard objectives add abtbchone minecraft.used:minecraft:allay_spawn_egg "Allay"
+
+execute as @a at @a unless score @s agree matches 1.. run scoreboard players set @s agree 0
+
 tellraw @a {"text": "ABTHINKS [ACTIVATED DATAPACK]","color": "yellow"}
