@@ -1,0 +1,9 @@
+{
+        "parent" : "item/handheld",
+        "textures" : {
+            "layer0" : "item/cooked_mutton/1"
+        }
+
+
+
+}
