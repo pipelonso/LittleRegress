@@ -61,6 +61,9 @@ execute as @a at @a run execute if entity @s[nbt={SelectedItem:{id:"minecraft:ca
 execute as @a at @a run execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:10}}}] run execute if score @s abtaddtrain matches 1.. run function comandos:sumtraining
 execute as @a at @a run execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:6}}}] run execute if score @s abtaddwash matches 1.. run function comandos:sumwash
 
+execute as @a at @a run execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:16}}}] run execute if score @s usepaci matches 1.. run function comandos:wearpaci
+
+
 execute as @a at @a if score @s abtbplace matches 1.. run function comandos:placefirst
 
 execute as @e[type=item_display , name="tapizone"] at @e[type=item_display , name="tapizone"] run function comandos:blockdeletion

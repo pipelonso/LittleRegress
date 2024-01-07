@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " I ",
+        " S ",
+        " A "
+    ],
+    "key": {        
+        "I": {
+            "item": "minecraft:copper_ingot"
+        },
+        "S" : {
+            "item": "minecraft:slime_ball"            
+        },
+        "A" : {
+            "item": "minecraft:apple"            
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}
