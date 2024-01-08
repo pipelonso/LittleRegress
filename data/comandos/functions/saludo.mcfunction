@@ -61,7 +61,7 @@ scoreboard objectives add abtxspawn dummy
 scoreboard objectives add abtbplace minecraft.used:allay_spawn_egg
 scoreboard objectives add usepaci minecraft.used:carrot_on_a_stick
 #scoreboard objectives add abtbchone minecraft.used:minecraft:allay_spawn_egg "Allay"
-
+scoreboard objectives add abtselection dummy "Selection"
 execute as @a at @a unless score @s agree matches 1.. run scoreboard players set @s agree 0
 
 tellraw @a {"text": "LittleRegress [ACTIVATED DATAPACK]","color": "yellow"}
