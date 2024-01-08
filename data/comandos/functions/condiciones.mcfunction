@@ -63,6 +63,9 @@ execute as @a at @a run execute if entity @s[nbt={SelectedItem:{id:"minecraft:ca
 
 execute as @a at @a run execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:16}}}] run execute if score @s usepaci matches 1.. run function comandos:wearpaci
 
+#Esta Linea deberia forzar la ejecución de la function tprotate en el modo de rotación
+execute as @a at @a if score @s abtforcerotation matches 1 run function comandos:.private/tprotate
+
 
 execute as @a at @a if score @s abtbplace matches 1.. run function comandos:placefirst
 

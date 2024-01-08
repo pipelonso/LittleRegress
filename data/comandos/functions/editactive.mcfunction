@@ -10,6 +10,11 @@ execute as @s at @s run execute if score @s sneakedit matches 50.. run execute i
 execute as @s at @s run execute if score @s sneakedit matches 50.. run execute if entity @e[type=item_display , distance=..2, name="closet"] run tellraw @s [{"text":"Entity: Nappy Closset","color":"yellow"},{"text":" [Select]","color":"green","clickEvent":{"action":"run_command","value":"/scoreboard players set @s abtselection 14"}}]
 execute as @s at @s run execute if score @s sneakedit matches 50.. run execute if entity @e[type=item_display , distance=..3, name="Cuna"] run tellraw @s [{"text":"Entity: Cot","color":"yellow"},{"text":" [Select]","color":"green","clickEvent":{"action":"run_command","value":"/scoreboard players set @s abtselection 18"}}]
 
+#guarda el valor del modo de juego anterior para restablecerlo en caso de cambiarse el modo de juego mientras el datapack esta en ejecución
+execute as @s at @s run execute if score @s sneakedit matches 50.. run execute if entity @s[gamemode=adventure] run scoreboard players set @s lastgamemode 1
+execute as @s at @s run execute if score @s sneakedit matches 50.. run execute if entity @s[gamemode=creative] run scoreboard players set @s lastgamemode 2
+execute as @s at @s run execute if score @s sneakedit matches 50.. run execute if entity @s[gamemode=spectator] run scoreboard players set @s lastgamemode 3
+execute as @s at @s run execute if score @s sneakedit matches 50.. run execute if entity @s[gamemode=survival] run scoreboard players set @s lastgamemode 4
 
 execute as @s at @s run execute if score @s sneakedit matches 50.. run execute if entity @e[type=item_display , distance=..2] run tellraw @s [{"text":"Options","color":"yellow"},{"text":" [Move]","color":"green","clickEvent":{"action":"run_command","value":"/function comandos:startmove"}},{"text": " [rotate]","color":"green","clickEvent":{"action":"run_command","value":"/function comandos:startrotate"}}]
 execute as @s at @s run execute if score @s sneakedit matches 50.. run scoreboard players set @s sneakedit 0
