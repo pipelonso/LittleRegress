@@ -2,3 +2,5 @@
 gamemode spectator @s
 
 execute if score @s abtselection matches 8 run function comandos:.private/.rotatebath
+execute if score @s abtselection matches 18 run function comandos:.private/.rotatecot
+execute if score @s abtselection matches 6 run function comandos:.private/.rotatewash

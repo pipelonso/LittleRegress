@@ -1,4 +1,4 @@
-execute as @s at @s run execute as @e[type=item_display , distance=..2] at @e[type=item_display, distance=..2] unless entity @s[name="tapizone"] run particle glow_squid_ink ~ ~2 ~
+execute as @s at @s run execute as @e[type=item_display , distance=..2] at @e[type=item_display, distance=..2] unless entity @s[name="tapizone"] run particle glow ~ ~2 ~
 execute as @s at @s run execute if score @s sneakedit matches 50.. run execute if entity @e[type=item_display , distance=..3] run tellraw @s {"text": "Nearest Entities:"}
 
 
