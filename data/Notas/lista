@@ -5,19 +5,19 @@ nappy wet : 2 -- Deprecated
 poo item {No pikable} : 3
 pee : 4
 babero : 5 //mecanicas ... bajar probabilidad de suciedad mientras come
-bañera : 6 --[wash] //mecanicas ... bajar el nivel de suciedad a cero
-silla : 7 -- [chair]
-bath : 8 -- [bath]
+bañera : 6 --[wash] //mecanicas ... bajar el nivel de suciedad a cero -- Moving [✔] Rotations [✔]
+silla : 7 -- [chair] -- Moving [✔] Rotations [✔]
+bath : 8 -- [bath] -- Moving [✔] Rotations [✔]
 trapeador : 9 
-training : 10 -- [trainer]
+training : 10 -- [trainer] -- Moving [✔] Rotations [✔]
 dust_milk : 11 
 talco : 12 
-cambiador : 13 -- [Change]
-armario : 14 -- [closet]
+cambiador : 13 -- [Change] -- Moving [✔] Rotations [✔]
+armario : 14 -- [closet] -- Moving [✔] Rotations [✔]
 blocks : 15
 chupon 16 //macanicas ... remueve el miedo a cero
 bibe : 17
-cuna : 18 -- [Cuna]
+cuna : 18 -- [Cuna] Moving [✔] Rotations [✔]
 cargador : 19 // posible
 
 
