@@ -1,0 +1,8 @@
+scoreboard players add @s[scores={roles = 1}] pootime 1
+
+
+execute if score @s[ scores={roles = 1}] pootime matches 9999.. run execute if score @s[scores={roles=1}] pootime matches ..10050 run execute if entity @s[scores={roles=1,onnappy=0}] run function exec:summon/item/summonpoo
+execute if score @s[scores={roles = 1}] pootime matches 9999.. run execute if score @s[scores={roles=1}] pootime matches ..10050 run execute if entity @s[scores={roles=1,onnappy=1}] run function exec:mechanics/actions/poonappy
+
+execute if score @s[scores={roles = 1}] pootime matches 9999.. run execute if score @s[scores={roles=1}] pootime matches ..10050 run execute if entity @s[scores={roles=1}] run scoreboard players set @s[scores={roles=1}] poometer 0
+

@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "comandos:givechanger"
+        "function": "exec:give/furniture/changer"
     }
 }

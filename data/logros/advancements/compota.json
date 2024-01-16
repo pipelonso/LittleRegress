@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "comandos:givemefood"
+        "function": "exec:give/food/food"
     }
 }

@@ -8,7 +8,7 @@
       }
     },
     "rewards": {
-      "function": "comandos:givenappy"
+      "function": "exec:give/clotles/givenappy"
     }
   }
   

@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "comandos:givecot"
+        "function": "exec:give/furniture/cot"
     }
 }

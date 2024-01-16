@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "comandos:giveclosset"
+        "function": "exec:give/furniture/closset"
     }
 }

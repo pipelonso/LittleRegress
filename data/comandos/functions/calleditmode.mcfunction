@@ -1,2 +1,0 @@
-tellraw @s [{"text":"Want you enter into editor mode? ","color":"yellow"},{"text":"[yes]","color":"green","clickEvent":{"action":"run_command","value":"/function comandos:enteredit"}}]
-scoreboard players set @s editorshow 0

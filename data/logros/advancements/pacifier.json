@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "comandos:givepaci"
+        "function": "exec:give/clotles/givepaci"
     }
 }

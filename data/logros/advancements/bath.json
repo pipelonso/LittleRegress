@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "comandos:givebath"
+        "function": "exec:give/furniture/bath"
     }
 }

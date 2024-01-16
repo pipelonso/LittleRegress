@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "comandos:givechair"
+        "function": "exec:give/furniture/chair"
     }
 }

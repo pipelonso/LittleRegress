@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "comandos:givecustomblock"
+        "function": "exec:give/blocks/blue_tapiz"
     }
 }

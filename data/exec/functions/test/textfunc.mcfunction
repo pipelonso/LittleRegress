@@ -1,0 +1,1 @@
+execute as @p at @p run function exec:test/testdir

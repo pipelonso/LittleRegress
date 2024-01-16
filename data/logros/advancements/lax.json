@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "comandos:givemelax"
+        "function": "exec:give/food/givemelax"
     }
 }
