@@ -107,4 +107,7 @@ scoreboard objectives add abtselection dummy "Selection"
 scoreboard objectives add abtrotation dummy
 scoreboard objectives add abtforcerotation dummy
 scoreboard objectives add lastgamemode dummy
-tellraw @a {"text": "LittleRegress [ACTIVATED DATAPACK]","color": "yellow"}
+tellraw @a {"text": "---------" , "color": "yellow"}
+tellraw @a {"text": "LittleRegress [ACTIVATED DATAPACK] V Beta 1.3 [1.20.4 Edition] ","color": "yellow"}
+tellraw @a {"text": "---------" , "color": "yellow"}
+tellraw @a {"text": "This version could contain bugs you can report that sending a mail to abthinksdl@gmail.com" , "color": "red"}
