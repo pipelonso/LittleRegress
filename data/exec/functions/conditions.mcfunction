@@ -45,8 +45,11 @@ execute as @a at @a if score @s movemode matches 1 run function exec:mechanics/e
 execute as @a at @a unless score @s abtstarter matches 1.. run scoreboard players set @s abtstarter 0 
 execute as @a at @a unless score @s roles matches 1.. run scoreboard players set @s roles 0 
 execute as @a at @a unless score @s agree matches 1.. run scoreboard players set @s agree 0
+execute as @a at @a unless score @s abtage matches 1.. run scoreboard players set @s abtage 0
+execute as @a at @a unless score @s abtstateage matches 1.. run scoreboard players set @s abtstateage 0
 execute as @a at @a unless score @s abtfrsenter matches 2.. run scoreboard players set @s abtfrsenter 1
 execute as @a at @a unless score @s logout matches 2.. run execute unless score @s logout matches ..0 run scoreboard players set @s logout 1
+
 
 
 execute as @a if score @s placeitemframe matches 1.. run function exec:test/detectplace
