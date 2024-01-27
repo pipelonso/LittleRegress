@@ -1,3 +1,3 @@
 scoreboard players set @p roles 1
-tellraw @s "Are you a baby now"
-#explota
+tellraw @s {"text": "Configuration applied succesfully" , "color": "green"}
+function exec:ui/hello
