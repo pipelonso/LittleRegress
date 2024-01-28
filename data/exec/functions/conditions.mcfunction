@@ -77,7 +77,8 @@ execute as @a at @a run execute if entity @s[nbt={SelectedItem:{id:"minecraft:ca
 #Esta Linea deberia forzar la ejecución de la function tprotate en el modo de rotación
 execute as @a at @a if score @s abtforcerotation matches 1 run function exec:private/rotations/tprotate
 
-
+execute as @a at @a run execute if score @s abtstateage matches 1 run scoreboard players add @s abtageincrease 1
+execute as @a at @a run execute if score @s abtageincrease matches 144000.. run function exec:datainfo/years
 
 
 execute as @a at @a if score @s abtbplace matches 1.. run function exec:mechanics/actions/place/blue_tapiz

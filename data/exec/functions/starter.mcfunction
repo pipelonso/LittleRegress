@@ -109,6 +109,9 @@ scoreboard objectives add abtforcerotation dummy
 scoreboard objectives add lastgamemode dummy
 scoreboard objectives add abtage dummy "Age"
 scoreboard objectives add abtstateage dummy
+
+scoreboard objectives add abtageincrease dummy
+
 tellraw @a {"text": "---------" , "color": "yellow"}
 tellraw @a {"text": "LittleRegress [ACTIVATED DATAPACK] V Beta 1.3 [1.20.4 Edition] ","color": "yellow"}
 tellraw @a {"text": "---------" , "color": "yellow"}
