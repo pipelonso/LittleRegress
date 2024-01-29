@@ -86,6 +86,7 @@ scoreboard objectives add abtdirt dummy "Dirtiness"
 scoreboard objectives add abtfear dummy "Fear"
 #padding parameter that  indicates the move difficutlty to the player
 scoreboard objectives add abtpadding dummy
+scoreboard objectives add abtlastpadding dummy
 scoreboard objectives add abtaddcot minecraft.used:carrot_on_a_stick
 scoreboard objectives add abtaddchanger minecraft.used:carrot_on_a_stick
 scoreboard objectives add abtaddbath minecraft.used:carrot_on_a_stick

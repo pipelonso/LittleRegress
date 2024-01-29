@@ -1,5 +1,5 @@
 scoreboard players add @p[scores={roles=1}] areadetection 1
-execute if score @p[scores={roles=1}] areadetection matches 50.. run function exec:detections
+execute if score @p[scores={roles=1}] areadetection matches 50.. run function exec:datainfo/detections
 
 execute as @a[scores={roles=1}] at @a[scores={roles=1}] run execute if entity @a[scores={roles=1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:17}}}] run execute if score @s[scores={roles=1}] oncarbibe matches 1.. run function exec:mechanics/actions/usebibe
 execute if score @p[scores={roles=1, oncarbibe=1}] oncarbibe matches 1.. run scoreboard players set @p[scores={roles=1, oncarbibe=1}] oncarbibe 0
