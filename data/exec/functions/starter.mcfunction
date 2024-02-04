@@ -100,7 +100,7 @@ scoreboard objectives add abtlang dummy
 scoreboard objectives add abttrans dummy
 scoreboard players set abplayer abttrans -1
 scoreboard objectives add abtxspawn dummy
-scoreboard objectives add abtbplace minecraft.used:allay_spawn_egg
+scoreboard objectives add abtbplace minecraft.used:minecraft.allay_spawn_egg
 scoreboard objectives add usepaci minecraft.used:carrot_on_a_stick
 #scoreboard objectives add abtbchone minecraft.used:minecraft:allay_spawn_egg "Allay"
 scoreboard objectives add abtselection dummy "Selection"
@@ -112,6 +112,9 @@ scoreboard objectives add abtage dummy "Age"
 scoreboard objectives add abtstateage dummy
 
 scoreboard objectives add abtageincrease dummy
+
+scoreboard objectives add abtbrakeblue minecraft.mined:minecraft.glass
+scoreboard objectives add abtbluedelete dummy
 
 tellraw @a {"text": "---------" , "color": "yellow"}
 tellraw @a {"text": "LittleRegress [ACTIVATED DATAPACK] V Beta 1.3 [1.20.4 Edition] ","color": "yellow"}

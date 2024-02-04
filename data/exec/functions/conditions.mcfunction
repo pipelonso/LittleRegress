@@ -80,7 +80,6 @@ execute as @a at @a if score @s abtforcerotation matches 1 run function exec:pri
 execute as @a at @a run execute if score @s abtstateage matches 1 run scoreboard players add @s abtageincrease 1
 execute as @a at @a run execute if score @s abtageincrease matches 144000.. run function exec:datainfo/years
 
-
 execute as @a at @a if score @s abtbplace matches 1.. run function exec:mechanics/actions/place/blue_tapiz
 
 execute as @e[type=item_display , name="tapizone"] at @e[type=item_display , name="tapizone"] run function exec:.dangerous/blockdeletion
