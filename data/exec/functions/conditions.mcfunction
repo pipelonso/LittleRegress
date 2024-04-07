@@ -1,5 +1,5 @@
-scoreboard players add @p[scores={roles=1}] areadetection 1
-execute if score @p[scores={roles=1}] areadetection matches 50.. run function exec:datainfo/detections
+scoreboard players add @a[scores={roles=1}] areadetection 1
+execute as @a at @a run execute if score @s[scores={roles=1}] areadetection matches 50.. run function exec:datainfo/detections
 
 execute as @a[scores={roles=1}] at @a[scores={roles=1}] run execute if entity @a[scores={roles=1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:17}}}] run execute if score @s[scores={roles=1}] oncarbibe matches 1.. run function exec:mechanics/actions/usebibe
 execute if score @p[scores={roles=1, oncarbibe=1}] oncarbibe matches 1.. run scoreboard players set @p[scores={roles=1, oncarbibe=1}] oncarbibe 0
@@ -45,6 +45,7 @@ execute as @a at @a if score @s movemode matches 1 run function exec:mechanics/e
 execute as @a at @a unless score @s abtstarter matches 1.. run scoreboard players set @s abtstarter 0 
 execute as @a at @a unless score @s roles matches 1.. run scoreboard players set @s roles 0 
 execute as @a at @a unless score @s agree matches 1.. run scoreboard players set @s agree 0
+execute as @a at @a unless score @s abtfearlimit matches 1.. run scoreboard players set @s abtfearlimit 15000
 execute as @a at @a unless score @s abtage matches 1.. run scoreboard players set @s abtage 0
 execute as @a at @a unless score @s abtstateage matches 1.. run scoreboard players set @s abtstateage 0
 execute as @a at @a unless score @s abtfrsenter matches 2.. run scoreboard players set @s abtfrsenter 1
@@ -83,3 +84,7 @@ execute as @a at @a run execute if score @s abtageincrease matches 144000.. run 
 execute as @a at @a if score @s abtbplace matches 1.. run function exec:mechanics/actions/place/blue_tapiz
 
 execute as @e[type=item_display , name="tapizone"] at @e[type=item_display , name="tapizone"] run function exec:.dangerous/blockdeletion
+
+execute as @a[scores={roles=1}] at @s[scores={roles=1}] run function exec:datainfo/feardetection
+
+execute as @a[scores={roles=1}] at @a[scores={roles=1}] if entity @s[nbt={Inventory:[{Slot:103b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:16}}]}] run scoreboard players set @s abtfear 0
