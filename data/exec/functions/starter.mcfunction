@@ -115,6 +115,7 @@ scoreboard objectives add abtageincrease dummy
 
 scoreboard objectives add abtbrakeblue minecraft.mined:minecraft.glass
 scoreboard objectives add abtbluedelete dummy
+scoreboard objectives add abtfearlimit dummy
 
 tellraw @a {"text": "---------" , "color": "yellow"}
 tellraw @a {"text": "LittleRegress [ACTIVATED DATAPACK] V Beta 1.3 [1.20.4 Edition] ","color": "yellow"}
