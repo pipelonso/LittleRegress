@@ -1,0 +1,1 @@
+execute as @s[scores={roles=1}] at @s[scores={roles=1}] run execute run tellraw @s {"text": "Do you want to use the potty? [YES]" , "color": "green" , "clickEvent": {"action": "run_command" , "value": "/function exec:mechanics/actions/interactions/usingpotty"}}

@@ -50,6 +50,7 @@ execute as @a at @a unless score @s abtage matches 1.. run scoreboard players se
 execute as @a at @a unless score @s abtstateage matches 1.. run scoreboard players set @s abtstateage 0
 execute as @a at @a unless score @s abtfrsenter matches 2.. run scoreboard players set @s abtfrsenter 1
 execute as @a at @a unless score @s logout matches 2.. run execute unless score @s logout matches ..0 run scoreboard players set @s logout 1
+execute as @a at @a unless score @s editormode matches 1.. run execute unless score @s editormode matches ..0 run scoreboard players set @s editormode 0
 
 
 
