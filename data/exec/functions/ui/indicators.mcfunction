@@ -1,1 +1,1 @@
-$title @s[scores={roles=1}] actionbar [{"text":"💧 $(pp)","color":"yellow"},{"text":" 🚽 $(po)","color":"gold"}]
+$title @s[scores={roles=1, abtuidisplay=1}] actionbar [{"text":"💧 $(lblone)","color":"yellow"},{"text":" 🚽 $(lbltwo)","color":"gold"}]

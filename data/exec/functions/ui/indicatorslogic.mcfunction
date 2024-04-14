@@ -1,0 +1,1 @@
+execute as @s[scores={roles=1, abtuidysplay=1}] at @s[scores={roles=1, abtuidisplay=1}] run function exec:ui/indicators {}
