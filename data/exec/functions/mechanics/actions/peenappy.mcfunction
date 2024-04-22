@@ -4,4 +4,4 @@ execute if entity @a[scores={onnappy=1,roles=1},nbt={Inventory:[{Slot:101b,id:"m
 
 scoreboard players add @s[scores={onnappy=1,roles=1}] abtpadding 1
 
-scoreboard players add @a[scores={onnappy=1,roles=1}] iswet 1
+scoreboard players add @a[scores={onnappy=1,roles=1}] abtiswet 1
