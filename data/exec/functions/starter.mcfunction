@@ -8,8 +8,6 @@ scoreboard objectives add abtfrsenter minecraft.custom:leave_game
 scoreboard objectives add admin dummy "admin"
 #Select the role for the player
 scoreboard objectives add roles dummy
-#Check if the player is running [Not used]
-scoreboard objectives add itsrunning minecraft.custom:sprint_one_cm
 #Check the time that the player is sneaking
 scoreboard objectives add sneakytime minecraft.custom:sneak_time
 #Value of the number of events that causes pee
@@ -25,17 +23,15 @@ scoreboard objectives add sed dummy
 #Value that check if the user is using a nappy at the moment with delay of 5 seconds
 scoreboard objectives add onnappy dummy
 #Value that check if the player is wet for diferents reasons
-scoreboard objectives add iswet dummy
+scoreboard objectives add abtiswet dummy
 #Value that check if the player had a accident
-scoreboard objectives add ispoo dummy
+scoreboard objectives add abtispoo dummy
 #Value that check if the player uses the bathroom [Unused]
 scoreboard objectives add bathuse dummy
 #used for turn on the value if the user is uning the potty training
 scoreboard objectives add traininguse dummy
 #Score that detects if ythe player is using a baby bottle
 scoreboard objectives add oncarbibe minecraft.used:carrot_on_a_stick
-#Score that detects the click of the chupon [Unused Deprecated]
-scoreboard objectives add oncarchupon minecraft.used:carrot_on_a_stick
 #Score that increaser 1 point per tps to 50 points and execute a function that detects if the players is using some of the diferents variations of nappy
 scoreboard objectives add areadetection dummy
 #scoreboard that indreases with the use of all datapacks food items
@@ -86,37 +82,61 @@ scoreboard objectives add abtdirt dummy "Dirtiness"
 scoreboard objectives add abtfear dummy "Fear"
 #padding parameter that  indicates the move difficutlty to the player
 scoreboard objectives add abtpadding dummy
+#padding value that verify the last napp padding
 scoreboard objectives add abtlastpadding dummy
+#scoreboar to place de crib on world
 scoreboard objectives add abtaddcot minecraft.used:carrot_on_a_stick
+#scoreboar to place de crib on world
 scoreboard objectives add abtaddchanger minecraft.used:carrot_on_a_stick
+#scoreboar to place de bath on world
 scoreboard objectives add abtaddbath minecraft.used:carrot_on_a_stick
+#scoreboar to place de chair on world
 scoreboard objectives add abtaddchair minecraft.used:carrot_on_a_stick
+#scoreboar to place de trainer on world
 scoreboard objectives add abtaddtrain minecraft.used:carrot_on_a_stick
+#scoreboar to place de closet on world
 scoreboard objectives add abtaddcloss minecraft.used:carrot_on_a_stick
+#scoreboar to place de wash on world
 scoreboard objectives add abtaddwash minecraft.used:carrot_on_a_stick
+#scoreboard that verify if user leave world
 scoreboard objectives add logout minecraft.custom:leave_game
+#scoreboard that verify the user languaje
 scoreboard objectives add abtlang dummy
 #scoreboard encargado de transformar un valor en negativo o positivo NO FUNCIONA PORQUE MOJANG SE LE OCURRIO NO SEGUIR LA LEY DE SIGNOS
 scoreboard objectives add abttrans dummy
 scoreboard players set abplayer abttrans -1
+#scoreboard that saves de last sleep place of the player
 scoreboard objectives add abtxspawn dummy
+#score that used to place blocks
 scoreboard objectives add abtbplace minecraft.used:minecraft.allay_spawn_egg
+#score used to activate de pacifier
 scoreboard objectives add usepaci minecraft.used:carrot_on_a_stick
 #scoreboard objectives add abtbchone minecraft.used:minecraft:allay_spawn_egg "Allay"
 scoreboard objectives add abtselection dummy "Selection"
-
+#value that save the editor rotation at the moment
 scoreboard objectives add abtrotation dummy
+#scoreboard used to force the rotation to a element
 scoreboard objectives add abtforcerotation dummy
+#used for save the last gamemode
 scoreboard objectives add lastgamemode dummy
+#used to represent the player age
 scoreboard objectives add abtage dummy "Age"
+#used to save the age state of the player [static,incremental]
 scoreboard objectives add abtstateage dummy
-
+#used like a cronomert to increment the age
 scoreboard objectives add abtageincrease dummy
-
+#used to detect when the user brake a blue tapiz block
 scoreboard objectives add abtbrakeblue minecraft.mined:minecraft.glass
+#used when the user brake de blue tapiz block
 scoreboard objectives add abtbluedelete dummy
+#used to stablish a limit to the fear mechanic
 scoreboard objectives add abtfearlimit dummy
+#used to show a spacific text on ui
 scoreboard objectives add abtuidisplay dummy
+#used to execute a function that show a text in 15 seconds
+scoreboard objectives add abtuiloop dummy "uiloop"
+#used to select the type of ui that will be shown
+scoreboard objectives add abtuitype dummy
 
 
 tellraw @a {"text": "---------" , "color": "yellow"}
