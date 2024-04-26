@@ -7,6 +7,8 @@
 execute if score @s[scores={roles=1 , abtuidisplay = 1}] abtuitype matches 1 run execute store result storage abtui lblone int 1 run scoreboard players get @s peemeter
 execute if score @s[scores={roles=1 , abtuidisplay = 1}] abtuitype matches 1 run execute store result storage abtui lbltwo int 1 run scoreboard players get @s poometer
 
+execute if score @s[scores={roles=1 , abtuidisplay = 2}] abtuitype matches 1 run execute if score @s peemeter matches 0 run data modify storage abtui lblone set value "--"
+execute if score @s[scores={roles=1 , abtuidisplay = 2}] abtuitype matches 1 run execute if score @s poometer matches 0 run data modify storage abtui lbltwo set value "--"
 
 execute if score @s[scores={roles=1 , abtuidisplay = 2}] abtuitype matches 1 run execute if score @s peemeter matches 1 run data modify storage abtui lblone set value "|"
 execute if score @s[scores={roles=1 , abtuidisplay = 2}] abtuitype matches 1 run execute if score @s poometer matches 1 run data modify storage abtui lbltwo set value "|"
@@ -35,8 +37,8 @@ execute if score @s[scores={roles=1 , abtuidisplay = 2}] abtuitype matches 1 run
 execute if score @s[scores={roles=1 , abtuidisplay = 2}] abtuitype matches 1 run execute if score @s peemeter matches 9 run data modify storage abtui lblone set value "|||||||||"
 execute if score @s[scores={roles=1 , abtuidisplay = 2}] abtuitype matches 1 run execute if score @s poometer matches 9 run data modify storage abtui lbltwo set value "|||||||||"
 
-execute if score @s[scores={roles=1 , abtuidisplay = 2}] abtuitype matches 1 run execute if score @s peemeter matches 10 run data modify storage abtui lblone set value "|||||||||"
-execute if score @s[scores={roles=1 , abtuidisplay = 2}] abtuitype matches 1 run execute if score @s poometer matches 10 run data modify storage abtui lbltwo set value "|||||||||"
+execute if score @s[scores={roles=1 , abtuidisplay = 2}] abtuitype matches 1 run execute if score @s peemeter matches 10.. run data modify storage abtui lblone set value "||||||||| !"
+execute if score @s[scores={roles=1 , abtuidisplay = 2}] abtuitype matches 1 run execute if score @s poometer matches 10.. run data modify storage abtui lbltwo set value "||||||||| !"
 
 
 
