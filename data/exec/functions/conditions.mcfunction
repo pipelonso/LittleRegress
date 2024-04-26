@@ -46,6 +46,8 @@ execute as @a at @a if score @s movemode matches 1 run function exec:mechanics/e
 
 #Stablishing initial scores
 execute as @a at @a unless score @s abtstarter matches 1.. run scoreboard players set @s abtstarter 0 
+execute as @a at @a unless score @s abtfearstate matches 1.. run scoreboard players set @s abtfearstate 0 
+execute as @a at @a unless score @s abtnappalert matches 0.. run scoreboard players set @s abtnappalert 1 
 execute as @a at @a unless score @s abtuitype matches 0.. run scoreboard players set @s abtuitype 1 
 execute as @a at @a unless score @s abtuidisplay matches 0.. run scoreboard players set @s abtuidisplay 1 
 execute as @a at @a unless score @s roles matches 1.. run scoreboard players set @s roles 0 
@@ -56,6 +58,7 @@ execute as @a at @a unless score @s abtstateage matches 1.. run scoreboard playe
 execute as @a at @a unless score @s abtfrsenter matches 2.. run scoreboard players set @s abtfrsenter 1
 execute as @a at @a unless score @s logout matches 2.. run execute unless score @s logout matches ..0 run scoreboard players set @s logout 1
 execute as @a at @a unless score @s editormode matches 1.. run execute unless score @s editormode matches ..0 run scoreboard players set @s editormode 0
+
 
 
 

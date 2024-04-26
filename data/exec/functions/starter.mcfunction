@@ -137,6 +137,10 @@ scoreboard objectives add abtuidisplay dummy
 scoreboard objectives add abtuiloop dummy "uiloop"
 #used to select the type of ui that will be shown
 scoreboard objectives add abtuitype dummy
+#state of activate or deactivate to feel fear
+scoreboard objectives add abtfearstate dummy
+#score to activate or deactivate nappy alert on potty
+scoreboard objectives add abtnappalert dummy
 
 
 tellraw @a {"text": "---------" , "color": "yellow"}
