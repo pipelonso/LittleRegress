@@ -15,7 +15,7 @@ class terminalMenu:
         print("                  ( o.o )                 ")
         print("                  > 🐨 <                  ")
 
-        print("     What are you doing today?     ")
+        print("        What are you doing today?     ")
         print("")
         print("1. Create a new datapack infraestructure")
         print("2. Create a new resourcepack infraestructure")
